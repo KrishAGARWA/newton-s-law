@@ -28,7 +28,7 @@ bob2= new Pp(450,600)
 ground=Bodies.rectangle(400,400,250,20,{isStatic:true})
 World.add(world,ground)
 ro=new Chain(ground,bob1.body,0,10)
-ro1= new Chain (ground,bob2.body,0,30)
+ro1= new Chain (ground,bob2.body,30,30)
 	Engine.run(engine);
   
 }
